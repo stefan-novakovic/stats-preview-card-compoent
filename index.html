@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Stefan Novaković">
+  <meta name="description" content="Stats preview card component">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="./images/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Stats preview card component</title>
+</head>
+
+<body>
+  <main>
+    <section class="card">
+      <div class="card__content">
+        <h1 class="card__content__title">
+          Get
+          <span class="highlight">insights</span>
+          that help your business grow.
+        </h1>
+
+        <p class="card__content__desc">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+
+        <div class="card__content__stats-container">
+          <div class="card__content__stats-container__subcontainer">
+            <p class="subcontainer-number">10k+</p>
+            <p class="subcontainer-word">companies</p>
+          </div>
+          <div class="card__content__stats-container__subcontainer">
+            <p class="subcontainer-number">314</p>
+            <p class="subcontainer-word">templates</p>
+          </div>
+          <div class="card__content__stats-container__subcontainer">
+            <p class="subcontainer-number">12M+</p>
+            <p class="subcontainer-word">queries</p>
+          </div>
+        </div>
+      </div>
+
+      <picture class="card__img-container">
+        <source media="(min-width: 1175px)" srcset="./images/image-header-desktop.jpg">
+        <img class="header-img" src="images/image-header-mobile.jpg" alt="Header image">
+
+        <div class="overlay"></div>
+      </picture>
+    </section>
+  </main>
+</body>
+
+</html>
