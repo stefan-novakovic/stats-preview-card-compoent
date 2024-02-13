@@ -1,2 +1,2 @@
 Stats preview card component\
-DEMO:
+DEMO: https://stats-preview-card-novakovic.netlify.app/
